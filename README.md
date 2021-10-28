@@ -1,6 +1,5 @@
-# puppet-aad
+# Azure Active Directory for Linux Puppet Module
 
-_Manage [Azure Active Directory (AAD), for Linux][aad-linux-ref] via [Puppet][puppet-doc]._
+## Reference
 
-[aad-linux-ref]: https://github.com/CyberNinjas/aad-for-linux
-[puppet-doc]: https://puppet.com/docs/puppet
+- [Puppet Docs: Modules Overview](https://puppet.com/docs/puppet/7/modules_fundamentals.html)
