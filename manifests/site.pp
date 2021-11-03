@@ -2,7 +2,7 @@ node default {
   case $::operatingsystem {
     'Ubuntu': {
       case $::lsbdistcodename {
-        'bionic': {
+        'focal': {
           package { 'libnss-aad':
             ensure => installed
           }
