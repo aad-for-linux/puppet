@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", inline: $vpupp    
   config.vm.provision "puppet" do |puppet|
-      puppet.manifests_path = "manifest"
+      puppet.manifests_path = "manifests"
       puppet.manifest_file = "site.pp"
   end   
 end
